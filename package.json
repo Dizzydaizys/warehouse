@@ -41,7 +41,8 @@
     "webpack-stream": "4.0.0",
     "whatwg-fetch": "2.0.3",
     "youtube-iframe": "1.0.3",
-    "zopflipng-bin": "^4.1.0"
+    "zopflipng-bin": "^4.1.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "babel-eslint": "8.2.2",
@@ -81,5 +82,10 @@
         "always"
       ]
     }
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
