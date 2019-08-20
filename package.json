@@ -41,12 +41,13 @@
     "webpack-stream": "4.0.0",
     "whatwg-fetch": "2.0.3",
     "youtube-iframe": "1.0.3",
-    "zopflipng-bin": "^4.1.0"
+    "zopflipng-bin": "^4.1.0",
+    "snyk": "^1.217.1"
   },
   "devDependencies": {
     "babel-eslint": "8.2.2",
-    "eslint": "4.12.1",
-    "sass-lint": "1.12.1"
+    "eslint": "4.18.2",
+    "sass-lint": "1.13.0"
   },
   "eslintConfig": {
     "env": {
@@ -81,5 +82,10 @@
         "always"
       ]
     }
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
