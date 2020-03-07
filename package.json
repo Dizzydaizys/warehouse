@@ -45,8 +45,8 @@
   },
   "devDependencies": {
     "babel-eslint": "8.2.2",
-    "eslint": "4.12.1",
-    "sass-lint": "1.12.1"
+    "eslint": "6.0.0",
+    "sass-lint": "1.13.0"
   },
   "eslintConfig": {
     "env": {
