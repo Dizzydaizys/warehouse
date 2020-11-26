@@ -159,7 +159,7 @@ soupsieve==1.7.2 \
 text-unidecode==1.2 \
     --hash=sha256:5a1375bb2ba7968740508ae38d92e1f889a0832913cb1c447d5e2046061a396d \
     --hash=sha256:801e38bd550b943563660a91de8d4b6fa5df60a542be9093f7abf819f86050cc
-urllib3==1.24.1 \
+urllib3==1.24.3 \
     --hash=sha256:61bf29cada3fc2fbefad4fdf059ea4bd1b4a86d2b6d15e1c7c0b582b9752fe39 \
     --hash=sha256:de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22
 waitress==1.2.0 \
